@@ -5,7 +5,7 @@
 
 <span style="font-family:Arial; font-size:10em;">
 
-#### a **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
+a **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
 
 <!-- ## What is `happi`? -->
 
@@ -91,6 +91,30 @@ its main functions through the `R` interactive session. You can follow
 the vignettes by running the following code in `R`:
 
     utils::browseVignettes(package = "happi")
+
+The syntax to use the main functions from `happi` in `R` is shown in the
+following example,
+
+    happi_results <- happi(outcome = presence_vector, covariate=x_matrix, quality_var= quality_vector)
+    happi_results$summary
+
+where `presence_vector` is a length-n vector indicating the
+presence/absence (coded as 0 or 1) of the target gene, `x_matrix` is a n
+x p design matrix for the predictors of interest, and `quality_vector`
+is a length-n vector indicating the quality of the genome.
+
+To use `happi`’s nonparametric permutation testing approach, we could
+run the `happi()` function above with the extra argument
+`run_npLRT = TRUE` or we can take our `happi` results object as an input
+to the function `happi::npLRT()` as shown below.
+
+    perm_test_result <- npLRT(happi_results, 
+                              change_threshold = 0.1, 
+                              spline_df = 3, 
+                              nstarts = 1, 
+                              epsilon = 0, 
+                              firth = T, 
+                              method = "splines")
 
 An example snakemake workflow of `happi`’s usage has been made available
 under the `workflows/` folder of this github directory. To run the
