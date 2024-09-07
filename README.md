@@ -7,7 +7,7 @@
 
 #### a **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
 
-## What is `happi`?
+<!-- ## What is `happi`? -->
 
 `happi` is a method for modeling gene presence in pangenomics that
 leverages information about genome quality to improve inference. `happi`
@@ -22,7 +22,20 @@ hypothesis testing if you work with fragmented genomes such as
 metagenome assembled genomes (MAGs). `happi` is currently distributed as
 an `R` package and can be installed using the instructions below.
 
-## Where does `happi` fit into my workflow?
+If you are a **microbial ecologist** or **bioinformatician**, some of
+the things that you may like about `happi` include
+
+- **AMY TO LIST ITEM 1**
+
+- **AMY TO LIST ITEM 2**
+
+If you are a **statistician**, things you may like about `happi` include
+
+- **AMY TO LIST ITEM 1**
+
+- **AMY TO LIST ITEM 2**
+
+### Where does `happi` fit into my workflow?
 
 If you’re new to shotgun metagenomics we understand that things can feel
 overwhelming! On top of all the tools and names floating around you’re
@@ -109,8 +122,9 @@ Please refer to the sample data files that have been provided in
 
 If you use `happi` please cite our work:
 
-An open-access preprint is available
-[here](https://www.biorxiv.org/content/10.1101/2022.04.26.489591v1.full).
+Trinh P, Clausen DS, Willis AD. happi: a hierarchical approach to
+pangenomics inference. Genome Biology. 2023;24(1):214-214. [Available
+here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03040-6)
 
 ## Issues/Requests
 
