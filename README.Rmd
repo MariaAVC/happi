@@ -8,14 +8,28 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # HAPPI <img src="vignettes/logo.JPEG" align="right" width="200px"/>
 
-<span style="font-family:Arial; font-size:10em;"> `happi`: a **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
+<span style="font-family:Arial; font-size:10em;"> 
 
-## What is `happi`?
+#### a **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
+
+<!-- ## What is `happi`? -->
 `happi` is a method for modeling gene presence in pangenomics that leverages information about genome quality to improve inference. `happi` models the association between an experimental condition and gene presence where the **experimental condition** is the **primary predictor** of interest and **gene presence** is the **outcome** while incorporating user-chosen information on genome quality metrics (e.g. mean coverage, contamination, completion, etc...). 
 
 You might be interested in using `happi` to conduct your pangenomics hypothesis testing if you work with fragmented genomes such as metagenome assembled genomes (MAGs). `happi` is currently distributed as an `R` package and can be installed using the instructions below. 
 
-## Where does `happi` fit into my workflow? 
+If you are a **microbial ecologist** or **bioinformatician**, some of the things that you may like about `happi` include
+
+- **AMY TO LIST ITEM 1**
+
+- **AMY TO LIST ITEM 2**
+
+If you are a **statistician**, things you may like about `happi` include
+
+- **AMY TO LIST ITEM 1**
+
+- **AMY TO LIST ITEM 2**
+
+### Where does `happi` fit into my workflow? 
 
 If you're new to shotgun metagenomics we understand that things can feel overwhelming! On top of all the tools and names floating around you're probably wondering where does `happi` fit into the vast suite of bioinformatics tools for metagenomics data and how can you use it in your work? `happi` can be used *after* you have assembled, binned, annotated, and refined your genomes or metagenome-assembled genomes (MAGs) and as such it can be used with any bioinformatics workflow that conducts assembly, binning, annotation, and refinement. 
 
@@ -71,13 +85,12 @@ The Snakefile is customizable for your own input data and parameters. Please ref
 ## How do I export data from anvi'o for use in `happi`? 
 
 
-
 ## Citation 
-If you use `happi` please cite our work: 
+If you use `happi` please cite our work:  
 
-An open-access preprint is available [here](https://www.biorxiv.org/content/10.1101/2022.04.26.489591v1.full). 
+Trinh P, Clausen DS, Willis AD. happi: a hierarchical approach to pangenomics inference. Genome Biology. 2023;24(1):214-214. [Available here](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-023-03040-6)
 
-## Issues/Requests 
+## Issues/Requests
 
 If you have any issues using our software or further questions please submit an issue [here](https://github.com/statdivlab/happi/issues). 
 

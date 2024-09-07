@@ -3,8 +3,9 @@
 
 # HAPPI <img src="vignettes/logo.JPEG" align="right" width="200px"/>
 
-<span style="font-family:Arial; font-size:10em;"> `happi`: a
-**H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
+<span style="font-family:Arial; font-size:10em;">
+
+#### a **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
 
 ## What is `happi`?
 
