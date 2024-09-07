@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# HAPPI <img src="vignettes/logo.JPEG" align="right" width="165px"/>
+# HAPPI <img src="vignettes/logo.JPEG" align="right" width="200px"/>
 
 <span style="font-family:Arial; font-size:10em;"> `happi`: a
 **H**ierarchical **Ap**proach to **P**angenomics **I**nference</span>
